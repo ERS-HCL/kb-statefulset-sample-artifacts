@@ -1,4 +1,4 @@
-# Replicated StatefulSet deployment in Kubernetes - A Core Banking appliaction example
+# Replicated StatefulSet deployment Artifact for Kubernetes - with Core Banking appliaction example
 
 ## Description
 This repository contains the declarative Kubernetes deployment configuration for replicated StatefulSet with persistence volume, persistence volume claim and storage class. The deployment has been chiseled in respect of creating a core banking applicaiton which involves following:
@@ -34,10 +34,13 @@ Replica: 2
 Service: Headless (as it will be used by deployed applicaiton microservice)
 Volume: Yes (for each replica)
 
+Once database will be deployed, both microservices also need to be started to form a complete application.
+
 For sake of testing, have also included stateless deployment of mysql configuration with persistent volume.
 
+
 ## Use Case
-Once database will be deployed, both microservices also need to be started to form a complete application.
+The Kubernetes artifacts is used to create deployment of replicated statefulset with persistent volume claim and persistent volume. Once deployment completed, it becomes a complete example for replicated statefulset applicability in real world application.  
 
 
 ## Technology Stack
