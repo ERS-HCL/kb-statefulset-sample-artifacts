@@ -3,8 +3,6 @@
 ## Description
 This repository contains the declarative Kubernetes deployment configuration for replicated StatefulSet with persistence volume, persistence volume claim and storage class. The deployment has been chiseled in respect of creating a core banking applicaiton which involves following:
 
-To read full article visit URL: https://medium.com/@siddhivinayak.sk/kubernetes-and-replicated-statefulset-with-real-world-application-9bf21fca9eb
-
 1. Customer Service Management (CSM) Microservice - This is the first microservice which provides endpoints to store static data for bank & branch, customer and account. It will be used by transaction microservice.
 
 URL: https://github.com/siddhivinayak-sk/csm
@@ -39,6 +37,8 @@ Volume: Yes (for each replica)
 Once database will be deployed, both microservices also need to be started to form a complete application.
 
 For sake of testing, have also included stateless deployment of mysql configuration with persistent volume.
+
+To read full article visit URL: https://medium.com/@siddhivinayak.sk/kubernetes-and-replicated-statefulset-with-real-world-application-9bf21fca9eb
 
 
 ## Use Case
