@@ -5,7 +5,7 @@ This repository contains the declarative Kubernetes deployment configuration for
 
 1. Customer Service Management (CSM) Microservice - This is the first microservice which provides endpoints to store static data for bank & branch, customer and account. It will be used by transaction microservice.
 
-URL: https://github.com/siddhivinayak-sk/k8s-csm
+URL: https://github.com/ERS-HCL/k8s-csm
 
 Deployment Highlights:
 Pod: Single Container
@@ -16,7 +16,7 @@ Volume: NA
 
 2. Core Banking Transaction (TRN) Microservice - This is the second microservice which provides endpoints for basic core banking operations like deposit by cash, widhdrawal by case, fund transfer, transaction enquiry and so on.
 
-URL: https://github.com/siddhivinayak-sk/k8s-trn
+URL: https://github.com/ERS-HCL/k8s-trn
 
 Deployment Highlights:
 Pod: Single Container
